@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oleose App Landing Page Responsive Bootstrap Theme</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <style>
+      body{
+        text-align: center;
+      }
+      .block,.block .image, .block .title{
+        text-align: center;
+      }
+      .block .image{
+        display: inline-block;
+        margin-bottom: 30px;
+      }
+      .block .title{
+        font-size: 30px;
+      }
+      .mb-40{
+        margin-bottom: 100px;
+      }
+      h1{
+        color: #777;
+      }
+      .berry{
+        color:#a35285;
+      }
+      .freeze{
+        color:#326495;
+      }
+      .eco{
+        color:#339a99;
+      }
+      a:hover{
+        text-decoration: none;
+        color:#777;
+        -webkit-transition:all .25s ease-in-out;
+        -moz-transition:all .25s ease-in-out;
+        -o-transition:all .25s ease-in-out;
+        -ms-transition:all .25s ease-in-out;
+        transition:all .25s ease-in-out;
+      }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="mb-40"></div>
+      <div class="row">
+        <div class="col-md-12"><h1>Oleose App Responsive Landing Theme</h1></div>
+      </div>
+      <div class="mb-40"></div>
+      <div class="row">
+        <div class="col-md-4 block">
+
+          <a href="../Berry" class="image">
+            <img src="img/berry.png" class="img-responsive" alt="Oleose App Responsive Bootstrap Theme">
+          </a>
+          <a href="../berry" class="title berry">Berry</a>
+        </div>
+
+        <div class="col-md-4 block">
+          <a href="../Freeze" class="image">
+            <img src="img/freeze.png" class="img-responsive" alt="Oleose App Responsive Bootstrap Theme">
+          </a>
+          <a href="../Freeze" class="title freeze">Freeze</a>
+        </div>
+
+        <div class="col-md-4 block">
+          <a href="../Eco" class="image">
+            <img src="img/eco.png" class="img-responsive" alt="Oleose App Responsive Bootstrap Theme">
+          </a>
+          <a href="../Eco" class="title eco">Eco</a>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+          $('.block').hover(function(){
+              $(this).find('.image').toggleClass('animated pulse');
+          });
+        }); 
+    </script>
+  </body>
+</html>
