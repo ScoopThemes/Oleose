@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scoop Themes | Colupsus Landing Page Documentation">
+    <meta name="author" content="Scoop Themes">
+
+    <title>Oleaose Responsive App Landing Page</title>
+
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="index.html">
+                        <img src="img/logo.png">
+                    </a>
+                </li>
+                <li class="main-search">
+                    <form>
+                        <input type="text" class="form-control" placeholder="Search here...">
+                        <span class="fa fa-search"></span>
+                    </form>
+                </li>
+                <li><a href="#GettingStarted">Overview</a>
+                </li>
+                <li><a href="#MainStructure">Main Structure <span class="fa fa-angle-down"></span></a>
+                    <ul>
+                        <li><a href="#BegOfPage">Beginning of the Page</a></li>
+                        <li><a href="#PageHead">Page Head</a></li>
+                        <li><a href="#Header">Header</a></li>
+                        <li><a href="#Sections">Sections</a></li>
+                        <li><a href="#Footer">Footer</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Theme">Theme configuration <span class="fa fa-angle-down"></span></a>
+                    <ul>
+                        <li><a href="#Less">Using Less</a>
+                        </li>
+                        <li><a href="#Css">Stylesheets</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#JScript">Javascript Intialization</a>
+                </li>
+                <li><a href="#Fonts">Fonts</a>
+                </li>
+                <li><a href="#Credits">Credits</a>
+                </li>
+                <li><a href="#Mockups">Mockups Download</a>
+                </li>
+                <li><a href="#Thanks">Thank You</a>
+                </li>
+            </ul>
+
+            <div class="copy-rights">
+                <span>Copy Rights &copy; For <a href="http://www.scoopthemes.com" target="_blank">ScoopTheme.com</a>
+                </span>
+            </div>
+
+        </div>
+
+        <!-- Page content -->
+        <div id="page-content-wrapper">
+            <div class="content-header">
+                <a id="menu-toggle" href="#" class="btn btn-default">
+                    <span class="fa fa-bars"></span>
+                </a>
+                <h1 id="GettingStarted">
+                    Oleose Overview
+                </h1>
+            </div>
+            <!-- Keep all page content within the page-content inset div! -->
+            <div class="page-content inset">
+
+                <div id="OverView">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="lead">Oleose is an incredibly eye catching and fully responsive Bootstrap 3 Template for any app profissional landing page. Template comes with developer friendly and easy to customizable code. It works on all main web browsers "IE8+", tablets and phones.</p>
+                            <p class="lead">We hope you will enjoy using Oleose template’s easy to navigate, user-friendly and catchy layout and yet developer friendly code. Our best wishes for your mobile app or your customer :).</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Copy Rights</h3>
+                            <ul class="list-unstyled">
+                                <li>Author : <a href="http://www.scoopthemes.com">Scoopthemes</a></li>    
+                                <li>Twitter : <a href="http://www.twitter.com/scoopthemes" target="_blank">@ScoopThemes</a></li>
+                                <li>Facebook : <a href="http://www.facebook.com/scoopthemes" target="_blank">fb.com/scoopthemes</a></li>
+                                <li>Support : <a href="mailto:support@scoopthemes.com">support@scoopthemes.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Overview-->
+
+                <div id="MainStructure">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Main Structure</h3>
+                            <p>Olease landing page structures as <code>header</code>, <code>slider</code>, <code>section</code>, <code>footer</code> and <code>copyrights</code> very google friendly html.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/header.jpg">
+                                        <div class="carousel-caption">
+                                            Header View
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/slider.jpg">
+                                        <div class="carousel-caption">
+                                            Slider View
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/sections.jpg">
+                                        <div class="carousel-caption">
+                                            Sections
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/footer.jpg">
+                                        <div class="carousel-caption">
+                                            Footer
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Controls -->
+                                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                    <span class="fa fa-angle-left fa-2x icon-prev"></span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                    <span class="fa fa-angle-right fa-2x icon-next"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row" id="BegOfPage">
+                    <div class="col-md-12">
+                        <h3>Beginning of the Page</h3>
+                        <p>In order to detect Internet Explorer browser version a specific class implemented to following code at the beginning of all HTML pages</p>
+                        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;!--[if IE 8]&gt; &lt;html lang=&quot;en&quot; class=&quot;ie8&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 9]&gt; &lt;html lang=&quot;en&quot; class=&quot;ie9&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if !IE]&gt;&lt;!--&gt; &lt;html lang=&quot;en&quot;&gt; &lt;!--&lt;![endif]--&gt;</pre>
+                        
+                    </div>
+                </div>
+
+                <div class="row" id="PageHead">
+                    <div class="col-md-12">
+                        <h3>Page Head</h3>
+                        <p>Page head contains Title, Metadata, Favicon and CSS.</p>
+                        <pre>
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Oleose App Landing Page | Bootstrap Theme&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap.css&quot;&lt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/animate.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/font-awesome.min.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/slick.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;js/rs-plugin/css/settings.css&quot;&gt;
+
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/freeze.css&quot;&gt;
+
+
+    &lt;script type=&quot;text/javascript&quot; src=&quot;js/modernizr.custom.32033.js&quot;&gt;&lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;
+      &lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+    
+&lt;/head&gt;
+</pre>
+                    </div>
+                </div>
+
+                <div class="row" id="Header">
+                    <div class="col-md-12">
+                        <h3>Header</h3>
+                        <p><code>header</code> tag contains both the <code>nav</code> navbar and <code>.tp-banner-container</code> container class for the revolution slider.</p>
+                        <pre>
+&lt;header&gt;
+    &lt;!--Navigation--&gt;
+    &lt;nav&gt;
+        ...
+        ...
+    &lt;/nav&gt;
+
+    &lt;!--Revolution Slider--&gt;
+    &lt;div class=&quot;tp-banner-container&quot;&gt;
+        ...
+        ...
+    &lt;/div&gt;
+&lt;/header&gt;
+</pre>
+                    </div>
+                </div>
+
+
+                <div class="row" id="Sections">
+                    <div class="col-md-12">
+                        <h3>Sections</h3>
+                        <p>Each section are in <code>section</code> tag with an id for the nav scrolling, inside it <code>.section-heading</code> class and contents.</p>
+                        <p><code>.scrollpoint</code> class is for animation on scrolling it's toggeling when the section in the view.</p>
+                        <p><code>.sp-effect1</code>, <code>.sp-effect2</code>, <code>.sp-effect3</code>, <code>.sp-effect4</code> and <code>.sp-effect5</code> classes is for adding animation classes each has it's own effect.</p>
+                        <p><code>.divider</code> is the seperatot between the <code>h1</code> and <code>p</code> sub title.</p>
+                        <pre>
+&lt;section id&quot;id_goes_here&quot;&gt;
+    &lt;div class&quot;container&quot;&gt;
+
+        &lt;div class&quot;section-heading scrollpoint sp-effect3&quot;&gt;
+            &lt;h1&gt;About Us&lt;/h1&gt;
+            &lt;div class&quot;divider&quot;&gt;&lt;/div&gt;
+            &lt;p&gt;sub title goes here&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class&quot;row&quot;&gt;
+            &lt;!--Content Goes Here With bootstrap Standards col-xs-# --&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+</pre>
+                    </div>
+                </div>
+
+                <div class="row" id="Footer">
+                    <div class="col-md-12">
+                        <h3>Footer & Copy rights</h3>
+                        <p><code>footer</code> tag is the main footer container inside it goes the copy rights and social links.</p>
+                        <pre>
+&lt;div class=<span style=' color: Maroon;'>"container"</span>&gt; 
+    &lt;a href=<span style=' color: Maroon;'>"#"</span> class=<span style=' color: Maroon;'>"scrollpoint sp-effect3"</span>&gt; 
+        &lt;img src=<span style=' color: Maroon;'>"img/freeze/logo.png"</span> alt=<span style=' color: Maroon;'>""</span> class=<span style=' color: Maroon;'>"logo"</span>&gt; 
+    &lt;/a&gt; 
+    &lt;div class=<span style=' color: Maroon;'>"social"</span>&gt; 
+        &lt;a href=<span style=' color: Maroon;'>"#"</span> class=<span style=' color: Maroon;'>"scrollpoint sp-effect3"</span>&gt;&lt;i class=<span style=' color: Maroon;'>"fa fa-twitter fa-lg"</span>&gt;&lt;/i&gt;&lt;/a&gt; 
+    &lt;/div&gt; 
+    &lt;div class=<span style=' color: Maroon;'>"rights"</span>&gt; 
+        &lt;p&gt;Copyright &amp;<span style=' color: #2B91AF;'>copy</span>; <span style=' color: Maroon;'>2014</span>&lt;/p&gt; 
+        &lt;p&gt;Template by &lt;a href=<span style=' color: Maroon;'>"http://www.scoopthemes.com"</span> target=<span style=' color: Maroon;'>"_blank"</span>&gt;ScoopThemes&lt;/a&gt;&lt;/p&gt; 
+    &lt;/div&gt; 
+&lt;/div&gt;</pre>
+                    </div>
+                </div>
+                <!--Main Structure-->
+
+                
+
+                <div class="row" id="Theme">
+                    <div class="col-md-12">
+                        <h3>Theme Configuration</h3>
+                        <p>Oleose Template includes Three predefined theme colors. You can easily change the theme for your favorite colors using LESS Css.</p>
+                    </div>
+                </div>
+
+                <div class="row" id="Less">
+                    <div class="col-md-12">
+                        <h3>Using Less</h3>
+                        <p>Oleose Template uses less css processor, you can find the less files in <code>../LessProject/less</code>. We will take you step by step to know the structure well.</p>
+                        <p>The head for less will look like this :</p>
+                        <pre>
+&lt;!-- Contains Template Styling --&gt; 
+&lt;link rel=<span style=' color: Maroon;'>"stylesheet/less"</span> href=<span style=' color: Maroon;'>"less/styles.less"</span>&gt; 
+
+&lt;!-- To Change your Favorite Color --&gt; 
+&lt;link rel=<span style=' color: Maroon;'>"stylesheet/less"</span> href=<span style=' color: Maroon;'>"less/freeze.less"</span>&gt; 
+
+&lt;!-- This To compile Less <span style=' color: Blue;'>in</span> client side --&gt; 
+&lt;script src=<span style=' color: Maroon;'>"js/less-1.7.0.min.js"</span>&gt;&lt;/script&gt;</pre>
+
+                        <p>To Change colors open <code>freeze.less</code> you can find it in <code>../LessProject/less/freeze.less</code>, below how code looks like, see the <code>@base:</code> change <code>#66cdcc</code> to your light color, and <code>@baseDark:</code> to your dark color.</p>
+                        <p>Compile the <code>freeze.less</code> file and you will get a ready css file with your favorite color.</p>
+                        <pre>
+@import <span style=' color: Maroon;'>"lib.less"</span>; 
+@import <span style=' color: Maroon;'>"styles.less"</span>; 
+
+@img_reviews : <span style=' color: Maroon;'>"../img/freeze/bk-freeze.jpg"</span>; //Reviews Background Path 
+@img_getapp : <span style=' color: Maroon;'>"../img/freeze/bk-freeze-ga.jpg"</span>; //GetApp Background Path 
+
+@base: <span style=' color: Green;'>#66cdcc; //Change Your Base Light Color Here</span> 
+@baseDark: <span style=' color: Green;'>#336799; //Change Your Base Dark Color Here</span> 
+
+@import <span style=' color: Maroon;'>"colors.less"</span>;</pre>
+
+<p class="alert alert-info">If you don't know how to compile less use very easy <a href="http://winless.org/" target="_blank">WinLess</a> for windows or <a href="http://incident57.com/less/">CodeKit</a> for mac.</p>
+
+<h4>Less Files</h4>
+<p><code>../less/colors.less</code>, <code>../less/styles.less</code> and <code>../less/lib.less</code> all files implemented in <code>../less/freeze.less</code>, We will talk about each.</p>
+<p><code>../less/colors.less</code> This contais all colors styling.</p>
+<p><code>../less/styles.less</code> This contais all elements styling in the page.</p>
+<p><code>../less/lib.less</code> This contais some less mixins to make styling easy and faster.</p>
+
+                    </div>
+                </div>
+
+                <div class="row" id="Css">
+                    <div class="col-md-12">
+                        <h3>Stylesheets</h3>
+                        <p>Olease comes with three different colors trying to meet your needs, <code>../css/freeze.css</code>, <code>../css/eco.css</code> and <code>../css/berry.css</code> in the html you will find it in the head seaction :</p>
+                        <p>You can change it to your <code>.css</code> file favorite theme.</p>
+                        <pre>&lt;link rel=<span style=' color: Maroon;'>"stylesheet"</span> href=<span style=' color: Maroon;'>"css/freeze.css"</span>&gt;</pre>
+                        <p>If you want to use any of the predefined colors keep it as is :).</p>
+                    </div>
+                </div>
+
+                <div class="row" id="JScript">
+                    <div class="col-md-12">
+                        <h3>Javascript Intialization</h3>
+                        <p>Core javascript initialization implemented in <code>../js/script.js</code> thorugh <code>appMaster</code> object as shown below. This approach enables an easy modular implementation to initialize jquery plugins and other application logics.</p>
+                        <p>You can call any of the available functions by objects for example : <code>appMaster.smoothScroll();</code>, or even add your own.</p>
+                        <pre>
+var appMaster = { 
+
+    preLoader: <span style=' color: Blue;'>function</span>() { 
+        // Hides PreLoading Screen After All Images Loaded
+    },
+
+    smoothScroll: <span style=' color: Blue;'>function</span>() { 
+        // Smooth Scrolling animates the whole web page to the section clicked 
+    },
+
+    reviewsCarousel: <span style=' color: Blue;'>function</span>() { 
+        // Reviews Carousel 
+    }, 
+
+    screensCarousel: <span style=' color: Blue;'>function</span>() { 
+        // Screens Carousel with filtring 
+    }, 
+
+    animateScript: <span style=' color: Blue;'>function</span>() { 
+        // this animates the elements on scrolloing using waypoint plugin 
+    }, 
+
+    revSlider: <span style=' color: Blue;'>function</span>() { 
+
+        // Revolution Slider Initialization 
+         
+    }, 
+
+    scrollMenu: <span style=' color: Blue;'>function</span>(){ 
+
+        // Add class to the header <span style=' color: Blue;'>for</span> different styling after scrolling
+
+    }, 
+    placeHold: <span style=' color: Blue;'>function</span>(){ 
+        // run Placeholdem on all elements with placeholders 
+    } 
+
+}; // AppMaster</pre>
+                    </div>
+                </div>
+
+
+                <div class="row" id="Fonts">
+                    <div class="col-md-12">
+                        <h3>Fonts</h3>
+                        <p>Oleose Template uses Open Sans font for headings from Google Web Fonts. You are able to choose more than 600+ fonts from Google Web Fonts. The font imported in the theme css file <code>../css/freeze.css</code></p>
+                        <p>In less project you will find it in <code>styles.less</code> file you can find it in <code>../less/styles.less</code>.</p>
+                        <pre>
+// Font Importing 
+@import url(http://fonts.googleapis.com/css<span style=' color: #2B91AF;'>?</span>family=Lato:<span style=' color: Maroon;'>300</span>,<span style=' color: Maroon;'>400</span>,<span style=' color: Maroon;'>700</span>,<span style=' color: Maroon;'>900</span>);</pre>
+                    </div>
+                </div>
+                
+                <div class="row" id="Credits">
+                    <div class="col-md-12">
+                        <h3>Credits</h3>
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th width="120">Name</th>
+                            <th class="hidden-sm">Description</th>
+                            <th>URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Twitter Bootstrap</td>
+                            <td class="hidden-sm">Sleek, intuitive, and powerful front-end framework for faster and easier web development.</td>
+                            <td><a target="_blank" href="http://twitter.github.io/bootstrap">http://twitter.github.io/bootstrap</a></td>
+                        </tr>
+                        <tr>
+                            <td>jQuery</td>
+                            <td class="hidden-sm">jQuery is a fast, small, and feature-rich JavaScript library.</td>
+                            <td><a target="_blank" href="http://jquery.com">http://jquery.com</a></td>
+                        </tr>
+                        <tr>
+                            <td>Font Awesome</td>
+                            <td class="hidden-sm">Font Awesome The iconic font designed for Bootstrap</td>
+                            <td><a target="_blank" href="http://fortawesome.github.io/Font-Awesome">http://fortawesome.github.io/Font-Awesome</a></td>
+                        </tr>
+                        <tr>
+                            <td>Revolution Slider</td>
+                            <td class="hidden-sm">Slider Revolution is a fully developed slide displaying system offering the capability to show images, videos and captions paired with simple, modern and fancy 3D transitions.</td>
+                            <td><a target="_blank" href="http://www.themepunch.com/codecanyon/revolution">http://www.themepunch.com/codecanyon/revolution</a></td>
+                        </tr>
+                        <tr>
+                            <td>Placeholdem</td>
+                            <td class="hidden-sm">Placeholdem is a JavaScript plugin that animates placeholder carets on inputs and textareas.</td>
+                            <td><a target="_blank" href="http://placeholdem.jackrugile.com/">http://placeholdem.jackrugile.com/</a></td>
+                        </tr>
+                        <tr>
+                            <td>Slick Slider</td>
+                            <td class="hidden-sm">Fully responsive. Scales with its container. Separate settings per breakpoint Uses CSS3 when available.</td>
+                            <td><a target="_blank" href="http://kenwheeler.github.io/slick/">http://kenwheeler.github.io/slick/</a></td>
+                        </tr>
+                        <tr>
+                            <td>Waypoint</td>
+                            <td class="hidden-sm">Waypoints is a jQuery plugin that makes it easy to execute a function whenever you scroll to an element.</td>
+                            <td><a target="_blank" href="https://github.com/imakewebthings/jquery-waypoints">https://github.com/imakewebthings/jquery-waypoints</a></td>
+                        </tr>
+                        <tr>
+                            <td>Mockups</td>
+                            <td class="hidden-sm">All the mockups included from freebbble.com.</td>
+                            <td><a target="_blank" href="http://freebbble.com/">http://freebbble.com/</a></td>
+                        </tr>
+                    </tbody>
+                </table> 
+
+                    </div>
+                </div>
+
+                <div class="row" id="Mockups">
+                    <div class="col-md-12">
+                        <h3>Mockup Download Links</h3>
+                        <p>As promissed here are the link to download mockups download from <a href="http://www.scoopthemes.com/oleose/mockups.zip">here</a>.</p>
+                    </div>
+                </div>
+
+
+                <div class="row" id="Thanks">
+                    <div class="col-md-12">
+                        <p>Thank You For Purchasing Our Template, We Wish For You The Best Of Luck With Your Client, Cheers :). ScoopThemes Team.</p>
+                    </div>
+                </div>
+
+
+
+
+                
+
+            </div>
+            <!--End of inner-content-->
+
+
+
+            <br />
+            <br />
+
+        </div>
+    </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script type='text/JavaScript' src="js/jquery-1.11.1.min.js"></script>
+    <script type='text/JavaScript' src="js/bootstrap.min.js"></script>
+    <script type='text/JavaScript' src="js/common.js"></script>
+
+
+    <!-- Custom JavaScript for the Menu Toggle -->
+    <script>
+    $(document).ready(function() {
+        DocMaster.treeMenu();
+        DocMaster.sideToggle();
+        DocMaster.scrollToElement();
+    });
+    </script>
+</body>
+
+</html>

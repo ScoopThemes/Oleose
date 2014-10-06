@@ -1,0 +1,301 @@
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+header {
+  background: #66cdcc;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+header .navbar-default ul.navbar-nav li a {
+  color: #ffffff;
+  background: none;
+}
+header .navbar-default ul.navbar-nav li a.getApp {
+  color: #3c79b4;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #e0e0e0));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* IE10+ */
+  background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#e0e0e0, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+header .navbar-default ul.navbar-nav li a.getApp:hover {
+  color: #4081bf;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* IE10+ */
+  background: linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+header .navbar-default ul.navbar-nav li a:hover {
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+header .carousel h1 {
+  color: #ffffff;
+}
+header .carousel .btn.btn-empty {
+  background: none;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+header .carousel .btn.btn-empty:hover {
+  background: #ffffff;
+  color: #66cdcc;
+}
+header .carousel .btn.btn-default {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  color: #66cdcc;
+}
+header .carousel .btn.btn-default:hover {
+  background: none;
+  color: #ffffff;
+}
+section#about .about-item i.fa {
+  border: 2px solid #66cdcc;
+  color: #66cdcc;
+}
+section#about .about-item:hover i.fa {
+  color: #ffffff;
+  background: #66cdcc;
+}
+section#about .about-item:hover h3 {
+  color: #66cdcc;
+}
+section#features {
+  background: #f6f6f6;
+}
+section#features header h1:after {
+  background: #66cdcc;
+}
+section#features .media i.fa {
+  border: 2px solid #66cdcc;
+  color: #66cdcc;
+}
+section#features .media:hover i.fa {
+  color: #ffffff;
+  background: #66cdcc;
+}
+section#features .media:hover h3 {
+  color: #66cdcc;
+}
+section#features .media.active i.fa {
+  color: #ffffff;
+  background: #66cdcc;
+}
+section#reviews {
+  background: url("../img/bk_ice_1.jpg");
+}
+section#reviews header {
+  color: #ffffff;
+}
+section#reviews header h1:after {
+  background: #ffffff;
+}
+section#reviews .review-filtering .review .review-person img {
+  border: 3px solid #ffffff;
+}
+section#reviews .review-filtering .review .review-comment {
+  background: #ffffff;
+}
+section#reviews .review-filtering .review .review-comment h3 {
+  color: #66cdcc;
+}
+section#reviews .review-filtering .review .review-comment p span i {
+  color: #66cdcc;
+}
+section#reviews .review-filtering .review .review-comment:after {
+  border-right-color: #ffffff;
+}
+section#reviews .review-filtering .slick-dots li button {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+}
+section#reviews .review-filtering .slick-dots li.slick-active button {
+  background: #66cdcc;
+}
+section#screens header h1:after {
+  background: #66cdcc;
+}
+section#screens .slider div img {
+  border: 2px solid #979797;
+}
+section#screens .slider div h4 {
+  color: #979797;
+}
+section#screens .slider .slick-dots li button {
+  background: #979797;
+}
+section#screens .slider .slick-dots li.slick-active button {
+  background: #66cdcc;
+}
+section#screens .filter a {
+  border: 2px solid #979797;
+  color: #979797;
+}
+section#screens .filter a:hover {
+  color: #ffffff;
+  background: #66cdcc;
+  border-color: #66cdcc;
+}
+section#screens .filter a.active {
+  color: #ffffff;
+  background: #66cdcc;
+  border-color: #66cdcc;
+}
+/* demo video Section */
+section#demo {
+  background: #f6f6f6;
+}
+section#demo header h1:after {
+  background: #66cdcc;
+}
+/* Get app Section */
+section#getApp {
+  background: url("../img/bk_ice_2.jpg");
+}
+section#getApp header {
+  color: #ffffff;
+}
+section#getApp header h1:after {
+  background: #ffffff;
+}
+section#getApp .platforms .media {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+section#getApp .platforms .media a i {
+  color: #ffffff;
+}
+section#getApp .platforms .media a div.media-body {
+  color: #ffffff;
+}
+section#getApp .platforms .media:hover {
+  background: #ffffff;
+}
+section#getApp .platforms .media:hover a i,
+section#getApp .platforms .media:hover a div.media-body {
+  color: #66cdcc;
+}
+/* support section */
+section#support header h1:after {
+  background: #66cdcc;
+}
+section#support .media i.fa {
+  border: 2px solid #66cdcc;
+  color: #66cdcc;
+}
+section#support .media a {
+  color: #66cdcc;
+}
+section#support .media:hover i.fa {
+  color: #ffffff;
+  background: #66cdcc;
+}
+section#support .media:hover h3 {
+  color: #66cdcc;
+}
+/* footer section */
+section#footer {
+  background: #336799;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #336799 0%, #66cdcc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #336799), color-stop(100%, #66cdcc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #336799 0%, #66cdcc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #336799 0%, #66cdcc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #336799 0%, #66cdcc 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #336799 0%, #66cdcc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#336799, endColorstr=#66cdcc, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+section#footer .social a {
+  border: 2px solid #ffffff;
+}
+section#footer .social a i {
+  color: #ffffff;
+}
+section#footer .social a:hover {
+  background: #ffffff;
+}
+section#footer .social a:hover i {
+  color: #66cdcc;
+}
+section#footer .rights {
+  color: #ffffff;
+}
+section#footer .rights a {
+  color: #ffffff;
+}
+/* Double Diagonal line */
+.doublediagonal,
+.doublediagonal-down {
+  background: #ffffff;
+}
+.navbar-toggle {
+  background-color: #CCC;
+  border: 1px solid rgba(0, 0, 0, 0);
+}

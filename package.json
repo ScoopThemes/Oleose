@@ -1,0 +1,33 @@
+{
+  "name": "Oleose",
+  "version": "0.0.27",
+  "lastComment": "updates",
+  "description": "Free Bootstrap 3 Mobile App Landing Page",
+  "main": "app/index.html",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-less": "~0.8.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-newer": "~0.5.4",
+    "grunt-este-watch": "~0.1.13",
+    "grunt-express": "~1.2.1",
+    "grunt-git": "~0.2.1",
+    "grunt-backup": "~0.1.0",
+    "grunt-ftp-deploy": "0.0.10",
+    "grunt-bumpup": "~0.4.2",
+    "grunt-browser-sync": "~0.3.0",
+    "grunt-shell": "~0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dyaa@bitbucket.org/ScoopThemes/scoop-template-one.git"
+  },
+  "author": "Scoop Themes",
+  "license": "MIT"
+}
