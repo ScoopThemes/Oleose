@@ -28,7 +28,7 @@ Follow us on twitter and stay tuned for any upcoming free items [@ScoopThemes](h
 
 ### Changelog
 
-#### Version 1.2
+##### Version 1.2
 + Bootstrap update 3.3.2
 + Mobile menu disapear on link click
 + Changing colors now easier
