@@ -26,6 +26,16 @@ Follow us on twitter and stay tuned for any upcoming free items [@ScoopThemes](h
 + SEO Friendly.
 + W3C Valid HTML5.
 
+### Changelog
+
+#### Version 1.2
++ Bootstrap update 3.3.2
++ Mobile menu disapear on link click
++ Changing colors now easier
++ Better project structure
++ Bug fixes
+
+
 ### License
 
 All demos and examples, whether in a code project’s repository or displayed on a Scoop Themes site, are released under the terms of [CC0](http://en.wikipedia.org/wiki/Creative_Commons_license/).
