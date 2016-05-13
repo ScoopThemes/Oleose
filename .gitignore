@@ -2,3 +2,5 @@
 /bower_components
 /ignore
 .DS_Store
+/.idea
+*.iml
